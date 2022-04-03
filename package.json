@@ -1,0 +1,24 @@
+{
+  "name": "hackru2022",
+  "version": "1.0.0",
+  "description": "Jam Together",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axandrew/hackRU2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axandrew/hackRU2022/issues"
+  },
+  "homepage": "https://github.com/axandrew/hackRU2022#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  }
+}
