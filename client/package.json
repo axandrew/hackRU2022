@@ -14,7 +14,6 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/material-ui": "^0.21.12",
     "axios": "^0.26.1",
-    "gh-pages": "^3.2.3",
     "moment": "^2.29.1",
     "react-router-dom": "^6.3.0",
     "react-router-hash-link": "^2.4.3",
@@ -52,5 +51,8 @@
     ]
   },
   "homepage": "https://axandrew.github.io/hackRU2022/",
-  "proxy": "http://localhost:3006"
+  "proxy": "http://localhost:3006",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
