@@ -66,6 +66,12 @@ function NavBar() {
               >
                 <Typography variant="h6">About Us</Typography>
               </HashLink>
+              <a
+                href="https://github.com/axandrew/hackRU2022"
+                style={{ textDecoration: "none", color: "lightgray" }}
+              >
+                <Typography variant="h6">GitHub</Typography>
+              </a>
             </div>
 
             <div>
