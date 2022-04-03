@@ -4,8 +4,6 @@ const path = require("path");
 const fs = require("fs");
 const cors = require("cors");
 
-const bodyParser = require("body-parser");
-
 const mongo = require("./mongo");
 const controllers = require("./controllers");
 
@@ -20,9 +18,6 @@ async function boot() {
   app.set("view engine", "ejs");
 
   app.use(cors());
-
-  app.use(bodyParser.json({ limit: "50mb" }));
-  app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 
   app.use("/api", controllers);
   app.use(express.static("./reactapp/build"));

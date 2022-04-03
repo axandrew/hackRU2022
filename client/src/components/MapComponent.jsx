@@ -30,11 +30,7 @@ function MapComponent({ markers }) {
       map,
     });
     let infowindow = new window.google.maps.InfoWindow({
-      content: `<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">${
-        pin.title
-      }</h1><div id="bodyContent"><p>${pin.description || "N/A"}<hr />~ ${
-        pin.author
-      }</p></div></div>`,
+      content: `<div id="content"><div id="siteNotice"></div><h1 id="firstHeading" class="firstHeading">${pin.title}</h1><div id="bodyContent"><p>${pin.description}<hr />~ ${pin.author}</p></div></div>`,
     });
     marker.addListener("click", () => {
       infowindow.open({

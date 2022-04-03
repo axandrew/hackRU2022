@@ -10,13 +10,6 @@ function pinsController() {
     res.send(JSON.stringify(pins));
   });
 
-  router.route("/create-pin").post((req, res, next) => {
-    Pin.create(req.body, (error, data) => {
-      if (error) return next(error);
-      res.json(data);
-    });
-  });
-
   return router;
 }
 
