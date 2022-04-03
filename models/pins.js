@@ -6,6 +6,7 @@ const pinSchema = mongoose.Schema({
   title: { type: String },
   description: { type: String },
   type: { type: String },
+  time: { type: Date },
 });
 
 module.exports = mongoose.model("pins", pinSchema);
