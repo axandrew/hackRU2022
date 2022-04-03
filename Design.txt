@@ -1,0 +1,15 @@
+The map will have pins with possible locations (there will be different type of pins, some with general music note
+some with a piano, some with a stage) to show what type of location it is (outdoor, public piano, stage)
+
+People will be able to pick time slots that they'll be there. First come first serve for different time slots.a
+When you click the pin, you get if it's free, and if it's not, you can click the profile of the person that reserved.
+This profile will have style of music.
+
+When you make a user profile, you have style of music, sight reading skill, username you'd prefer to be called by, instrument (or listener only)
+
+You can RSVP to the time, basically as a listener or as an instrument. There will be no "reject RSVP" or anything; we expect our users to play nice._blank
+- QR Code for RSVP'd participants
+
+Have a search function that can search based on type of location.
+- If the location is public, show the location
+- If the location is "private", input a password/code before showing the location
