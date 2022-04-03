@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar";
 import Profile from "./components/Profile";
 import Settings from "./components/Settings";
 import EmptyMap from "./components/EmptyMap";
+import About from "./components/About";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/" exact element={<RUMap />} />
             <Route path="/profile" exact element={<Profile />} />
             <Route path="/settings" exact element={<Settings />} />
+            <Route path="/about" exact element={<About />} />
 
             <Route
               path="/jam"

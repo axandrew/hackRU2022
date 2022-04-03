@@ -37,28 +37,36 @@ function NavBar() {
               alignItems: "center",
             }}
           >
-            <HashLink to="/" style={{ textDecoration: "none" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                <Typography
-                  variant="h6"
-                  style={{ color: "#a254cc", fontWeight: "bold" }}
-                >
-                  JAM
-                </Typography>
-                <img
-                  src={logo}
-                  style={{ height: 50, width: 50 }}
-                  className="App-logo"
-                  alt="logo"
-                />
-                <Typography
-                  variant="h6"
-                  style={{ color: "#d92727", fontWeight: "bold" }}
-                >
-                  TOGETHER
-                </Typography>
-              </div>
-            </HashLink>
+            <div style={{ display: "flex", gap: 50, alignItems: "center" }}>
+              <HashLink to="/" style={{ textDecoration: "none" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+                  <Typography
+                    variant="h6"
+                    style={{ color: "#a254cc", fontWeight: "bold" }}
+                  >
+                    JAM
+                  </Typography>
+                  <img
+                    src={logo}
+                    style={{ height: 50, width: 50 }}
+                    className="App-logo"
+                    alt="logo"
+                  />
+                  <Typography
+                    variant="h6"
+                    style={{ color: "#d92727", fontWeight: "bold" }}
+                  >
+                    TOGETHER
+                  </Typography>
+                </div>
+              </HashLink>
+              <HashLink
+                to="/about"
+                style={{ textDecoration: "none", color: "lightgray" }}
+              >
+                <Typography variant="h6">About Us</Typography>
+              </HashLink>
+            </div>
 
             <div>
               <Tooltip title="Open settings">
