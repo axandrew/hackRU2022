@@ -34,8 +34,13 @@ function About() {
         out with the information, and people who are interested in your style of
         music will show up and be either listeners or performers. Together, you
         guys can create the magic of music and share it with the listeners and
-        those who happen to be around.{" "}
+        those who happen to be around. Interact with others who are interested
+        with the same music preferences, create music, create a community, and
+        jam it out together!{" "}
       </span>
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
