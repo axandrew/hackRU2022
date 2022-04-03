@@ -11,10 +11,7 @@ function About() {
         <img
           src={`https://i.imgur.com/H1COdaa.png`}
           alt="logo"
-          // style={{ height: "25em", width: "25em" }}
-          height={350}
-          width={700}
-          style={{ alignSelf: "center" }}
+          style={{ height: "25em", width: "25em" }}
         />
       </div>
       <span style={{ fontSize: "20px" }}>
